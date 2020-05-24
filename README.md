@@ -9,17 +9,26 @@
 [![Go Report Card](https://goreportcard.com/badge/moul.io/roundtripper)](https://goreportcard.com/report/moul.io/roundtripper)
 [![CodeFactor](https://www.codefactor.io/repository/github/moul/roundtripper/badge)](https://www.codefactor.io/repository/github/moul/roundtripper)
 [![codecov](https://codecov.io/gh/moul/roundtripper/branch/master/graph/badge.svg)](https://codecov.io/gh/moul/roundtripper)
-[![Docker Metrics](https://images.microbadger.com/badges/image/moul/roundtripper.svg)](https://microbadger.com/images/moul/roundtripper)
 [![GolangCI](https://golangci.com/badges/github.com/moul/roundtripper.svg)](https://golangci.com/r/github.com/moul/roundtripper)
 [![Made by Manfred Touron](https://img.shields.io/badge/made%20by-Manfred%20Touron-blue.svg?style=flat)](https://manfred.life/)
 
 
 ## Usage
 
-```console
-$ roundtripper -h
-...
+```golang
+import "moul.io/roundtripper"
+
+client := http.Client{
+    Transport: &roundtripper.Transport{
+        ExtraHeader: http.Header{
+            "Authorization": []string{"Bearer LoremIpsumDolorSitAmet..."},
+        },
+    },
+}
+client.Get("...")
 ```
+
+See https://pkg.go.dev/moul.io/roundtripper
 
 ## Install
 
@@ -28,16 +37,6 @@ $ roundtripper -h
 ```console
 $ go get -u moul.io/roundtripper
 ```
-
-### Using brew
-
-```console
-$ brew install moul/moul/roundtripper
-```
-
-### Download releases
-
-https://github.com/moul/roundtripper/releases
 
 ## License
 
