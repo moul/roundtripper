@@ -1,23 +1,23 @@
-# golang-repo-template
+# roundtripper
 
-:smile: golang-repo-template
+:smile: roundtripper
 
-![CI](https://github.com/moul/golang-repo-template/workflows/CI/badge.svg)
-[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/moul.io/golang-repo-template)
-[![License](https://img.shields.io/badge/license-Apache--2.0%20%2F%20MIT-%2397ca00.svg)](https://github.com/moul/golang-repo-template/blob/master/COPYRIGHT)
-[![GitHub release](https://img.shields.io/github/release/moul/golang-repo-template.svg)](https://github.com/moul/golang-repo-template/releases)
-[![Go Report Card](https://goreportcard.com/badge/moul.io/golang-repo-template)](https://goreportcard.com/report/moul.io/golang-repo-template)
-[![CodeFactor](https://www.codefactor.io/repository/github/moul/golang-repo-template/badge)](https://www.codefactor.io/repository/github/moul/golang-repo-template)
-[![codecov](https://codecov.io/gh/moul/golang-repo-template/branch/master/graph/badge.svg)](https://codecov.io/gh/moul/golang-repo-template)
-[![Docker Metrics](https://images.microbadger.com/badges/image/moul/golang-repo-template.svg)](https://microbadger.com/images/moul/golang-repo-template)
-[![GolangCI](https://golangci.com/badges/github.com/moul/golang-repo-template.svg)](https://golangci.com/r/github.com/moul/golang-repo-template)
+![CI](https://github.com/moul/roundtripper/workflows/CI/badge.svg)
+[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/moul.io/roundtripper)
+[![License](https://img.shields.io/badge/license-Apache--2.0%20%2F%20MIT-%2397ca00.svg)](https://github.com/moul/roundtripper/blob/master/COPYRIGHT)
+[![GitHub release](https://img.shields.io/github/release/moul/roundtripper.svg)](https://github.com/moul/roundtripper/releases)
+[![Go Report Card](https://goreportcard.com/badge/moul.io/roundtripper)](https://goreportcard.com/report/moul.io/roundtripper)
+[![CodeFactor](https://www.codefactor.io/repository/github/moul/roundtripper/badge)](https://www.codefactor.io/repository/github/moul/roundtripper)
+[![codecov](https://codecov.io/gh/moul/roundtripper/branch/master/graph/badge.svg)](https://codecov.io/gh/moul/roundtripper)
+[![Docker Metrics](https://images.microbadger.com/badges/image/moul/roundtripper.svg)](https://microbadger.com/images/moul/roundtripper)
+[![GolangCI](https://golangci.com/badges/github.com/moul/roundtripper.svg)](https://golangci.com/r/github.com/moul/roundtripper)
 [![Made by Manfred Touron](https://img.shields.io/badge/made%20by-Manfred%20Touron-blue.svg?style=flat)](https://manfred.life/)
 
 
 ## Usage
 
 ```console
-$ golang-repo-template -h
+$ roundtripper -h
 ...
 ```
 
@@ -26,18 +26,18 @@ $ golang-repo-template -h
 ### Using go
 
 ```console
-$ go get -u moul.io/golang-repo-template
+$ go get -u moul.io/roundtripper
 ```
 
 ### Using brew
 
 ```console
-$ brew install moul/moul/golang-repo-template
+$ brew install moul/moul/roundtripper
 ```
 
 ### Download releases
 
-https://github.com/moul/golang-repo-template/releases
+https://github.com/moul/roundtripper/releases
 
 ## License
 
